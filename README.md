@@ -24,8 +24,8 @@ You can include this in your code:
 
 ```   
 dependencies {
-    implementation 'com.github.wwdablu:Blurred:x.y.z'
+    implementation 'com.github.wwdablu:Blurred:1.0.1'
 }
 ```   
 
-![Sample](https://github.com/wwdablu/Blurred/blob/master/screenshot/blurry.gif)
+![Sample](https://github.com/wwdablu/Blurred/blob/master/screenshot/blurry_v2.gif)
