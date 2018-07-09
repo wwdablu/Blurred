@@ -1,4 +1,4 @@
-package com.soumya.wwdablu.blurry;
+package com.soumya.wwdablu.blurred;
 
 interface Constants {
     int DEFAULT_FOGGINESS = 10;

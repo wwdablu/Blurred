@@ -1,1 +1,1 @@
-include ':blurrytest', ':blurry'
+include ':blurrytest', ':blurred'
