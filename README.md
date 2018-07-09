@@ -5,7 +5,7 @@ An android library that allows the developer to blur images. The blur action can
 An example of performing the blur on an ImageView is:  
 ```
 ImageView iv = findViewById(R.id.iv_blur_image);  
-Blurry.with(getApplicationContext())  
+Blurred.with(getApplicationContext())  
     .load(R.drawable.sample)  
     .fogginess((int) l)  
     .in(iv);  
@@ -15,7 +15,7 @@ An example to perform blur action on the text content of a TextView is:
 
 ```
 TextView tv = findViewById(R.id.tv_sample_text);
-Blurry.with(getApplicationContext())  
+Blurred.with(getApplicationContext())  
     .load(tv)  
     .blur(TextViewBlur.BlurMode.OUTSIDE, 20);  
 ```  
