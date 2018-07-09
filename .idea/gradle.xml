@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/blurry" />
+            <option value="$PROJECT_DIR$/blurred" />
             <option value="$PROJECT_DIR$/blurrytest" />
           </set>
         </option>

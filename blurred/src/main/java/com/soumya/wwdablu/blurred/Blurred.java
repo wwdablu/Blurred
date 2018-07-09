@@ -1,4 +1,4 @@
-package com.soumya.wwdablu.blurry;
+package com.soumya.wwdablu.blurred;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -7,16 +7,16 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.widget.TextView;
 
-public class Blurry {
+public class Blurred {
 
     private Context context;
 
-    private Blurry(Context context) {
+    private Blurred(Context context) {
         this.context = context;
     }
 
-    public static Blurry with(@NonNull Context context) {
-        return new Blurry(context);
+    public static Blurred with(@NonNull Context context) {
+        return new Blurred(context);
     }
 
     public BitmapBlur load(@NonNull Bitmap bitmap) {

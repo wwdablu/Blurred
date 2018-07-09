@@ -1,4 +1,4 @@
-package com.soumya.wwdablu.blurry;
+package com.soumya.wwdablu.blurred;
 
 import android.graphics.BlurMaskFilter;
 import android.widget.TextView;

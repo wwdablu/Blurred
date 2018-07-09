@@ -1,4 +1,4 @@
-package com.soumya.wwdablu.blurry;
+package com.soumya.wwdablu.blurred;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -51,7 +51,7 @@ public class BitmapBlur {
     }
 
     @SuppressLint("CheckResult")
-    public void in(@NonNull final ImageView imageView) {
+    public void into(@NonNull final ImageView imageView) {
 
         if(async) {
 
